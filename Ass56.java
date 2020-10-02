@@ -1,3 +1,30 @@
+/*
+1.Write a Java program which accept string from user and count  number of capital characters.  
+Input : “Marvellous Multi OS”  
+Output : 4 
+
+2. Write a java program which accept string from user and count  number of small characters.  
+Input : “Marvellous”  
+Output : 9  
+
+3. Write a java program which accept string from user and return  difference between frequency 
+of small characters and frequency  of capital characters.
+Input : “MarvellouS”  
+Output : 6 (8-2)
+
+4. Write a java program which accept string from user and check  whether it contains vowels in it or not.  
+Input : “marvellous”  
+Output : TRUE  
+Input : “Demo”  
+Output : TRUE
+Input : “xyz”  
+Output : FALSE  
+
+5. Write a java program which accept string from user and display  it in reverse order.  
+Input : “MarvellouS”  
+Output : “SuollevraM”
+*/
+
 import java.lang.*;
 import java.util.*;
 
@@ -93,9 +120,6 @@ class Ass56
 		else{System.out.println("String conatins no vowels");}*/
 		
 		sobj.reverse(ch);  //prog 5:ass56
-		
 	}
-	
-	
 }
 
