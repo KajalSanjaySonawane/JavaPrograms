@@ -1,5 +1,4 @@
-/*
-1. Write Java program which accept number of rows and number of columns  from user and display below pattern.  
+/*1. Write Java program which accept number of rows and number of columns  from user and display below pattern.  
 Input : iRow = 4 iCol = 4  
 Output : A B C D  
  A B C D  
@@ -30,9 +29,7 @@ Output :
  Input : iRow = 3 iCol = 4  
 Output : 1 2 3 4  
  5 6 7 8  
- 9 10 11 12  
-*/
-
+ 9 10 11 12  */
 import java.lang.*;
 import java.util.*;
 
@@ -155,17 +152,13 @@ class Pattern
 	
 	void prog5(int row,int col)
 	{
+		int counter=1;
 		for(int i=1;i<=row;i++)
 		{
 			for(int j=1;j<=col;j++)
 			{				
-				if(i==1)
-				{System.out.print(j);}
-				else if(i==2)
-				{System.out.print(col+j);}
-				else if(i==3)
-				{System.out.print(col+j+4);}
-				
+				System.out.print(counter+" ");
+				counter++;
 			}
 			System.out.println();
 		}
